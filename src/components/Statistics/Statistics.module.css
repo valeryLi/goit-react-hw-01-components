@@ -1,0 +1,25 @@
+.section {
+  margin: auto;
+  width: 400px;
+  height: 150px;
+  border: 2px solid green;
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: darkslategray;
+  text-align: center;
+}
+
+.stats_list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats_list li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 83px;
+}
